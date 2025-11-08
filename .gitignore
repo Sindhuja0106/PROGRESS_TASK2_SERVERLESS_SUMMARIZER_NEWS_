@@ -1,0 +1,16 @@
+# Ignore Terraform provider binaries and zips
+.terraform/
+terraform/*.zip
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+
+

@@ -1,0 +1,21 @@
+# Ignore the lambda build folder (contains installed dependencies)
+lambda/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Zip packages or build artifacts
+*.zip
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
