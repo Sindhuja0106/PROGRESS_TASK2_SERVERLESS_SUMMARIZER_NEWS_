@@ -1,0 +1,1 @@
+openrouter_key = "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"

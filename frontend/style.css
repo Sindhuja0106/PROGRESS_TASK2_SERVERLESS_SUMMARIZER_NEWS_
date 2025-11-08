@@ -1,0 +1,58 @@
+body {
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light-mode {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.dark-mode {
+  background-color: #0d1117;
+  color: #e2e8f0;
+}
+
+.navbar {
+  background-color: var(--nav-bg);
+  transition: background-color 0.3s ease;
+}
+
+.main-card {
+  background: var(--card-bg);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.summary-box {
+  background: var(--summary-bg);
+  border: 1px solid var(--summary-border);
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.light-mode {
+  --nav-bg: #ffffff;
+  --card-bg: #ffffff;
+  --summary-bg: #f1f5f9;
+  --summary-border: #d1d5db;
+}
+
+.dark-mode {
+  --nav-bg: #161b22;
+  --card-bg: #1f2937;
+  --summary-bg: #111827;
+  --summary-border: #374151;
+}
