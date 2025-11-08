@@ -1,16 +1,18 @@
-# Ignore Terraform provider binaries and zips
+# Terraform local files
 .terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
 terraform/*.zip
 
-# Ignore Python bytecode
+# Node and frontend
+frontend/node_modules/
+frontend/build/
+
+# Python cache
 __pycache__/
 *.pyc
 
-
-
-# Ignore OS/system files
+# System files
 .DS_Store
 Thumbs.db
-
-
-
