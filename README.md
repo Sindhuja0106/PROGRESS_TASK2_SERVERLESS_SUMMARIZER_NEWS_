@@ -4,6 +4,12 @@ This project is a **Serverless News Summarizer** built using **AWS Lambda**, **A
 It takes a news article URL or raw text as input and returns a clean 5–7 line summary — all powered by serverless infrastructure with no database required.
 
 ---
+##  Live Demo
+
+**Frontend (Deployed on Netlify):**  
+ [https://heartfelt-starship-b20b18.netlify.app](https://heartfelt-starship-b20b18.netlify.app)
+
+Try it live — paste any news article link or text and get an instant summary powered by AWS Lambda + OpenRouter.
 
 ## Tech Stack
 
